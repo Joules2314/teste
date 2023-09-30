@@ -1,0 +1,169 @@
+.ad{
+    background-color: #353434;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  sans-serif;
+    color: white;
+}
+
+.menu li{
+    display: inline;
+    margin: 0px 8px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.Logo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: linear-gradient(287.56deg, #080808 0%, #4c5754 100%);
+    margin: 0;
+}
+
+.TituloAnime {
+    text-align: center;
+    color: red;
+}
+
+.fbox_wrap {
+    flex-wrap: wrap;
+}
+
+.fbox {
+    display: flex;
+
+}
+
+.AnimeInfo:nth-last-child(2) {
+    border-bottom: 0;
+}
+
+.AnimeInfo:nth-child(odd) {
+    border-left: 0px;
+}
+
+.AnimeInfo {
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+
+.anime_title {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+.anime_conteudo {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.anime_sinopse {
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: justify;
+}
+
+.anime_sinopse #sinopse {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.anime_sinopse #sinopse_cont {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: justify;
+    color: white;
+}
+
+#a {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+
+.episodios li {
+    display: inline;
+    margin: 0px 8px;
+}
+
+.ep {
+    text-decoration: none;
+    color: white;
+}
+
+@media  (max-width:450px) {
+    .menu li{
+        display: block;
+        margin: 0px 8px;
+    }
+    
+    .episodios ul {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px){
+
+
+    .Logo {
+        font-size: 300%;
+    }
+
+    .btn {
+        font-size: 160%;
+
+
+
+    }
+
+    .anime_sinopse #sinopse_cont {
+        font-size: 25px;
+        line-height: 22px;
+    }
+
+    .anime_sinopse #sinopse {
+        font-size: 25px;
+        
+    }
+
+    .TituloAnime {
+        font-size: 45px;
+    }
+
+    .anime_title {
+        font-size: 25px;
+    }
+
+    .anime_conteudo {
+        font-size: 20px;
+    }
+
+    .ep {
+        font-size: 25px;
+    }
+
+    #a {
+        font-size: 27px;
+        margin-left: 10px;
+    }
+}

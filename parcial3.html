@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge"
+     name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  media="screen" href="main.css">
+    <script> src='main.js'</script>
+    <title>forms</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <div>
+        <form action="https://webhook.site/b66d82c1-de3a-434f-a09b-a8992405b4d9" method="post"
+    <fieldset>
+            <legend>campos de identificação<legend>
+            <p>
+                <abbr>*</abbr>
+                <label for="campo_nome">nome:</label>
+                <input tabindex="1" type="text" name="nome:" id="campo_nome" required>
+            </p>
+            <p>
+                <abbr>*</abbr>
+                <label for="campo_email">email:
+                </label>
+                <input tabindex="2" type="email" name="email:" id="campo_email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            </p>
+            <p>
+                <abbr>*</abbr>
+                <label for="campo_usuario">usuario:</label>
+                <input tabindex="3" type="text" name="nickname:" id="campo_usuario" required>
+            </p>
+            <p>
+                <abbr>*</abbr>
+                <label for="campo_senha">senha:</label>
+                <input tabindex="4" type="password" name="senha:" id="campo_senha" required value="">
+            </p>
+            <p>
+                <abbr>*</abbr>
+                <label for="campo_datanasc">data nascimento:</label>
+                <input tabindex="5" type="date" name="data_nasc" id="campo_datanasc" required>
+            </p>
+            <p>
+                <label for="campo_genero_f">genero:</label>
+                <input type="radio" name="genero" id="campo_genero_f" value="f">
+                <label for="campo_genero_f">feminino</label>
+                <input type="radio" name="genero" id="campo_genero_m" value="m" >
+                <label for="campo_genero_m">masculino</label>
+                <input type="radio" name="genero" id="campo_genero_o" value="o">
+                <label for="campo_genero_o">outro</label>
+           </fieldset>
+
+           <button type="submit" formmethod="GET">enviar GET</button>
+           <button tabindex="7" type="submit" formmethod="POST">enviar POST</button>
+        </form>
+  </div>
+</body>
+</html>

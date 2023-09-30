@@ -1,0 +1,65 @@
+.ad{
+    background-color: #353434;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  sans-serif;
+    color: white;
+}
+
+.menu li{
+    display: inline;
+    margin: 0px 8px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.Logo {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p {
+    margin-left: 8px;
+    color: white;
+}
+
+body {
+    background: linear-gradient(287.56deg, #080808 0%, #4c5754 100%);
+    margin: 0;
+}
+
+h3 {
+    margin: 8px;
+}
+
+@media  (max-width:450px) {
+    .menu li{
+        display: block;
+        margin: 0px 8px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1024px){
+    p {
+       font-size: 225%;
+    }
+
+    h3 {
+        font-size: 225%;
+    }
+    
+    .Logo {
+        font-size: 200%;
+    }
+
+    .btn {
+        font-size: 175%;
+    }
+
+}
